@@ -1,0 +1,16 @@
+mix1.txt
+mix2.txt
+mixCLF20.txt
+mixCLF30.txt
+mixCLF40.txt
+mixCLF50.txt
+mixCLF60.txt
+mixCLF70.txt
+mixCLF80.txt
+mixMLF20.txt
+mixMLF30.txt
+mixMLF40.txt
+mixMLF50.txt
+mixMLF60.txt
+mixMLF70.txt
+mixMLF80.txt
