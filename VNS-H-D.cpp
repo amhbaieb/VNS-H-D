@@ -1391,7 +1391,7 @@ bool verification_vesabilite(){
 void main()
 {
 
-	fstream fl("instances_liste.txt", ios::in);
+	fstream fl("instances_liste_large.txt", ios::in);
 	if(!fl)
         printf("Error opening file instances_liste.txt...\n");
 	
@@ -1400,8 +1400,8 @@ void main()
 	
 	while(!fl.eof()){
 	fl>>instance;
-	lecture_data_center("all_instances/data_center_"+instance);
-	lecture_requette("all_instances/"+instance);
+	lecture_data_center("all_instances_large/data_center_"+instance);
+	lecture_requette("all_instances_large/"+instance);
 	for(run=1;run<=5;run++){
 	decomp=20;
 	
